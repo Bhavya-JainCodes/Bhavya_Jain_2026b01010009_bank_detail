@@ -1,0 +1,21 @@
+ SRS: Bank Data Cleaning Project
+
+ 1. Purpose
+This project takes messy, raw banking data from `bank.csv`, cleans it using a Python script (`project.py`), and creates a clean, ready-to-use file called `bank_cleaned.csv`.
+
+ 2. Main Features
+* **Reads Data:** Opens and loads the raw `bank.csv` file.
+* **Fixes Missing Values:** Handles empty or missing data in the file.
+* **Removes Duplicates:** Deletes repeated entries.
+* **Cleans Formatting:** Fixes messy data formatting so it is ready for analysis.
+* **Saves Output:** Creates a new cleaned file named `bank_cleaned.csv`.
+
+3. Tools & Requirements
+* **Language:** Python
+* **Libraries:** `pandas` and `numpy`
+* **Editor Used:** VS Code
+* **Input File:** `bank.csv`
+
+4. How to Run
+1. Install `pandas` and `numpy` on your computer.
+2. Run the command `python project.py`.
