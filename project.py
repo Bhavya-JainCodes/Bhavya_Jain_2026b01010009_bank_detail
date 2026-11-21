@@ -54,3 +54,12 @@ print(df.head())
 
 df.to_csv('bank_cleaned.csv', index=False)
 print("File 'bank_cleaned.csv' successfully save ho gayi hai!")
+
+ # analysis 
+# total rows =11162
+# total columns = 17
+#missing value in columns 
+# poutcome	8,326
+# contact	2,346
+# education	497
+# job	70
